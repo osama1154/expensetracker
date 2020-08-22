@@ -1,38 +1,78 @@
-.App {
+.cover{
+  background-image: url(Images/pic.jpg);
+  background-size: cover;
+  padding: 20px;
+}
+.conta {
+  margin:auto;
+  margin-top: 30px;
+  color:black;
+  border: 1px solid Black;      
+  background-color:lightgray;
+  box-shadow: 0px 0px 40px gray;
+  width: 550px;
+  padding:0px 50px;
+  margin-bottom: 50px;
+  background-image: url('Images/sven-scheuermeier-37377.jpg');
+}
+.text-C{
+  margin-top: 20px;
   text-align: center;
+  color:blue  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.incomeExpense h2 {
+  text-align: center;
+} 
+.incomeExpense {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  border: 1px solid gray;
+  box-shadow: 0px 0px 30px gray;
+  background-color: #fff;
+  margin:20px 20px;
 }
-
-.App-link {
-  color: #61dafb;
+h3 {
+   padding: 0px 30px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+hr{
+  width: 92%;
+  background-color:black;
+  box-shadow: 10px 10px 20px black;
+  margin-left: 30px;
+}
+ul li {
+  width: 94%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  margin: 9px 0px;
+  box-shadow: 0px 0px px black;
+  padding: 6px 5px;
+  border: 1px solid black;
+}
+.addTrans {
+  margin: 20px;
+}
+.addTrans form {
+  margin: 0px 0px 0px 30px;
+}
+.addTrans form label {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.addTrans input {
+  padding: 21px 2px;
+  box-shadow: 0px 0px 10px black;
+}
+.addTrans button {
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 25px ;
+  color: #fff;
+  height: 50px;
+  background-color:blue;
+  margin-bottom: 45px;
 }
